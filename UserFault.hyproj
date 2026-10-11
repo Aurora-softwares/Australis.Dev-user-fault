@@ -2,7 +2,7 @@ format = 2
 name = "UserFault"
 version = "0.1.0"
 type = "exec"
-output = "build/user-fault.exec"
+output = "user-fault.exec"
 sources = ["src/Program.hy"]
 project_references = []
 
