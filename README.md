@@ -51,7 +51,7 @@ hy build UserFault.hyproj -o user-fault.exec
 ### 3. Package the executable in HyFS 2
 
 The default Australis OS application aggregate installs the compiled fixture
-at `/Bin/user-fault.exec` in the read-only HyFS 2 boot image:
+at `/System/Bin/user-fault.exec` in the read-only HyFS 2 boot image:
 
 ```text
 /
@@ -67,7 +67,7 @@ the fixture.
 Boot Australis OS in a development VM. From its terminal, launch the fixture:
 
 ```text
-run /Bin/user-fault.exec
+run /System/Bin/user-fault.exec
 ```
 
 The bare command `user-fault` also resolves through the current recovery
