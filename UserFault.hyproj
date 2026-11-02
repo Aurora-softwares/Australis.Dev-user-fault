@@ -7,7 +7,7 @@ sources = ["src/Program.hy"]
 project_references = []
 
 [package]
-id = "os.australis.user-fault"
+id = "australis.applications.user-fault"
 description = "User memory isolation recovery fixture"
 authors = ["Aurora Softwares"]
 license = "MIT"
